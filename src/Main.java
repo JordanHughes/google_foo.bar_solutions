@@ -5,5 +5,6 @@ public class Main {
         System.out.println(new MinionCount().checkAnswer());
         System.out.println(new MaximumEquality().checkAnswer());
         System.out.println(new PeculiarBalance().checkAnswer());
+        System.out.println(new SquareSupplies().checkAnswer());
     }
 }
