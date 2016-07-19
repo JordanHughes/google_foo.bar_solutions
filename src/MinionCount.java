@@ -14,7 +14,7 @@
  */
 public class MinionCount {
 
-    public static String executeProblemTests(){
+    public static String checkAnswer(){
         String result = "Minion Count Tests: ";
         if (answer(2)==8&&answer(5)==2801){
             return result + "PASSED";
