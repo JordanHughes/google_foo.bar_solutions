@@ -1,0 +1,10 @@
+#################
+##	ignored directories
+#################
+out/
+.idea/
+
+#################
+##	ignored file types
+#################
+*.iml
