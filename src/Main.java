@@ -4,5 +4,6 @@ public class Main {
         // print the result of each test
         System.out.println(new MinionCount().checkAnswer());
         System.out.println(new MaximumEquality().checkAnswer());
+        System.out.println(new PeculiarBalance().checkAnswer());
     }
 }
