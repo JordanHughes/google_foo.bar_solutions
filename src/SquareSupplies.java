@@ -13,7 +13,7 @@ public class SquareSupplies {
 
     public static String checkAnswer(){
         String result = "Square Supplies Answer: ";
-        if (answer(64)==2
+        if (answer(64)==1
                 && answer(23)==5){
             return result+"PASSED";
         }else{
@@ -23,7 +23,7 @@ public class SquareSupplies {
 
     private static int answer(int x){
         int count = 0;
-        for (int i = 0; i < x; i++){
+        while (x > 0){
             x = (int) (x - (Math.floor(Math.sqrt(x))*Math.floor(Math.sqrt(x))));
             count++;
         }
